@@ -109,27 +109,27 @@ describe "GIT" do
 
 # describe "BRANCHING:" do
   it "15. What is the syntax for creating a new branch called 'style-image'?" do
-    answer = "?"
+    answer = "git branch style-image"
     encoded_answer = "a905f4cf88cdf57f8c406f2d5e7eb0acafe44c05"
     expect(encode(answer)).to eq(encoded_answer)
   end
 
   it "16. What is the syntax for switching to a branch called 'add-social-media-links'?" do
-    answer = "?"
+    answer = "git checkout add-social-media-links"
     encoded_answer = "1004b71629950e1efa0fe94f053b772b170d66b3"
     expect(encode(answer)).to eq(encoded_answer)
   end
 
   it "17. What is the syntax for switching to master from a feature branch called
      'add-nav-bar'" do
-    answer = "?"
+    answer = "git checkout master"
     encoded_answer = "0899840db4703b45cc69576b6ec53615d552370d"
     expect(encode(answer)).to eq(encoded_answer)
   end
 
   it "18. What is the one line syntax for creating and switching to a branch called
      'add-nav-bar'?" do
-    answer = "?"
+    answer = "git checkout add-nav-bar"
     encoded_answer = "f6317616a8601aeb64c0f27f71a4b7bf9e3b8453"
     expect(encode(answer)).to eq(encoded_answer)
   end
